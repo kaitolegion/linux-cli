@@ -64,7 +64,11 @@ diff file1.txt file2.txt
 - sort
 ```sh
 # sort file to alphabetical order
-cat file.txt | sort 
+cat file.txt | sort
+# display unique
+sort file.txt | uniq
+# display unique with numbers
+sort file.txt uniq -c
 ```
 - find
 ```sh
