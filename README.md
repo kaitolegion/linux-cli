@@ -72,8 +72,10 @@ cat file.txt | sort
 find / -name "kaito*"
 # find all hidden files
 find . -type f -name ".*"
-# find all empty directories
+# find all empty file or directories
 find . -type f -empty
+# find all empty file or directories and delete
+find . -type f -empty -delete
 # find all executable files
 find . -perm /a=x
 ```
