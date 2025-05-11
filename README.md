@@ -1,6 +1,27 @@
 # linux-cli
 Linux Commands Resources | Tips & Tricks by @Kaito-Coding
 
+
+### Basic commands
+```sh
+#
+ls
+ls -alps
+ls -la
+# calculator
+cal
+# 
+neofetch
+# find dns
+traceroute xkaito.com
+# simple mathematics
+echo "8*8" | bc
+# show history previous commands
+history
+# shutdown your machine
+sudo shutdown -h now
+```
+### Advance Commands
 - touch
 ```sh
 # create file
@@ -56,43 +77,9 @@ find . -type f -empty
 # find all executable files
 find . -perm /a=x
 ```
-- 
+- grep
 ```sh
-# 
-
-```
-- find
-```sh
-# 
-
-```
-- find
-```sh
-# 
-
-```
-- find
-```sh
-# 
-
-```
-- find
-```sh
-# 
-
-```
-- find
-```sh
-# 
-
-```
-- find
-```sh
-# 
-
-```
-- find
-```sh
-# 
+# find all ip address
+ifconfig | grep -oE "inet [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
 
 ```
