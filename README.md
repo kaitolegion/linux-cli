@@ -7,6 +7,7 @@ Linux Commands Resources | Tips & Tricks by @Kaito-Coding
 #
 ls
 ls -alps
+ls -ltra
 ls -la
 # show current path
 pwd
