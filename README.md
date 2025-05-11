@@ -8,6 +8,8 @@ Linux Commands Resources | Tips & Tricks by @Kaito-Coding
 ls
 ls -alps
 ls -la
+# show current path
+pwd
 # calculator
 cal
 # 
